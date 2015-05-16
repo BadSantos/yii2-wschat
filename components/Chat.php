@@ -1,5 +1,5 @@
 <?php
-namespace jones\wschat\components;
+namespace badsantos\wschat\components;
 
 use Yii;
 use yii\helpers\json;
@@ -8,13 +8,13 @@ use Ratchet\MessageComponentInterface;
 
 /**
  * Class Chat
- * @package \jones\wschat\components
+ * @package \badsantos\wschat\components
  */
 class Chat implements MessageComponentInterface
 {
     /** @var ConnectionInterface[] */
     private $clients = [];
-    /** @var \jones\wschat\components\ChatManager */
+    /** @var \badsantos\wschat\components\ChatManager */
     private $cm = null;
     /**
      * @var array list of available requests
@@ -24,7 +24,7 @@ class Chat implements MessageComponentInterface
     ];
 
     /**
-     * @param \jones\wschat\components\ChatManager $cm
+     * @param \badsantos\wschat\components\ChatManager $cm
      */
     public function __construct(ChatManager $cm)
     {

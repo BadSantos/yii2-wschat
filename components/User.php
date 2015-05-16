@@ -1,12 +1,12 @@
 <?php
-namespace jones\wschat\components;
+namespace badsantos\wschat\components;
 
 use Yii;
 use yii\base\InvalidParamException;
 
 /**
  * Class User
- * @package \jones\wschat\components
+ * @package \badsantos\wschat\components
  *
  * @property mixed $id
  * @property string $username
@@ -20,7 +20,7 @@ class User
     public $avatar_16;
     public $avatar_32;
     private $rid;
-    /** @var \jones\wschat\components\ChatRoom $chat */
+    /** @var \badsantos\wschat\components\ChatRoom $chat */
     private $chat;
     /** @var string */
     private $modelClassName = null;
@@ -108,7 +108,7 @@ class User
      * Get user chat room
      *
      * @access public
-     * @return \jones\wschat\components\ChatRoom
+     * @return \badsantos\wschat\components\ChatRoom
      */
     public function getChat()
     {
@@ -119,7 +119,7 @@ class User
      * Set chat room for user
      *
      * @access public
-     * @param \jones\wschat\components\ChatRoom $chat
+     * @param \badsantos\wschat\components\ChatRoom $chat
      * @return void
      */
     public function setChat(ChatRoom $chat)

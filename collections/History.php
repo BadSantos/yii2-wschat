@@ -1,11 +1,11 @@
 <?php
-namespace jones\wschat\collections;
+namespace badsantos\wschat\collections;
 
 use yii\mongodb\ActiveRecord;
 
 /**
  * Class History
- * @package jones\wschat\collections
+ * @package badsantos\wschat\collections
  * @property \MongoId $_id
  * @property string $chat_id
  * @property string $chat_title

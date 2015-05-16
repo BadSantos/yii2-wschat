@@ -1,5 +1,5 @@
 <?php
-use jones\wschat\ChatAsset;
+use badsantos\wschat\ChatAsset;
 
 /** \yii\web\View $this */
 ChatAsset::register($this);

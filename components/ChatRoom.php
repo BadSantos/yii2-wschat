@@ -1,16 +1,16 @@
 <?php
-namespace jones\wschat\components;
+namespace badsantos\wschat\components;
 
 /**
  * Class ChatRoom
- * @package \jones\wschat\components
+ * @package \badsantos\wschat\components
  */
 class ChatRoom
 {
     public $title;
     /** @var string */
     private $uid;
-    /** @var \jones\wschat\components\User[] */
+    /** @var \badsantos\wschat\components\User[] */
     private $users = [];
 
     /**
@@ -40,7 +40,7 @@ class ChatRoom
      * Get chat room user list
      *
      * @access public
-     * @return \jones\wschat\components\User[]
+     * @return \badsantos\wschat\components\User[]
      */
     public function getUsers()
     {
@@ -51,7 +51,7 @@ class ChatRoom
      * Add user to chat room
      *
      * @access public
-     * @param \jones\wschat\components\User $user
+     * @param \badsantos\wschat\components\User $user
      * @return void
      */
     public function addUser(User $user)
@@ -63,7 +63,7 @@ class ChatRoom
      * Remove user from chat room
      *
      * @access public
-     * @param \jones\wschat\components\User $user
+     * @param \badsantos\wschat\components\User $user
      * @return void
      */
     public function removeUser(User $user)

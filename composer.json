@@ -1,5 +1,5 @@
 {
-    "name": "joni-jones/yii2-wschat",
+    "name": "badsantos/yii2-wschat",
     "description": "Online chat based on web sockets and ratchet php",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","backbone","ratchet", "websocket"],
@@ -8,8 +8,8 @@
     "minimum-stability": "dev",
     "authors": [
         {
-            "name": "Ievgen Sentiabov",
-            "email": "ievgen.sentiabov@gmail.com"
+            "name": "Roman Peregudov",
+            "email": "roman.peregudov@askant.ru"
         }
     ],
     "require": {
@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "jones\\wschat\\": ""
+            "badsantos\\wschat\\": ""
         }
     }
 }

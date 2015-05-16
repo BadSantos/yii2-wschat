@@ -1,5 +1,5 @@
 <?php
-namespace jones\wschat;
+namespace badsantos\wschat;
 
 use yii\base\Widget;
 use yii\web\View;
@@ -7,7 +7,7 @@ use yii\helpers\json;
 
 /**
  * Class ChatWidget
- * @package jones\wschat
+ * @package badsantos\wschat
  */
 class ChatWidget extends Widget
 {
@@ -50,4 +50,3 @@ class ChatWidget extends Widget
         $this->getView()->registerJs(implode(' ', $opts), View::POS_BEGIN);
     }
 }
- 

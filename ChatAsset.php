@@ -1,11 +1,11 @@
 <?php
-namespace jones\wschat;
+namespace badsantos\wschat;
 
 use yii\web\AssetBundle;
 
 /**
  * Class ChatAsset
- * @package jones\wschat
+ * @package badsantos\wschat
  */
 class ChatAsset extends AssetBundle
 {
@@ -33,7 +33,7 @@ class ChatAsset extends AssetBundle
     ];
 
      public $depends = [
-         'jones\wschat\ChatLibAsset'
+         'badsantos\wschat\ChatLibAsset'
      ];
 
     /**

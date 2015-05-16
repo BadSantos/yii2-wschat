@@ -1,12 +1,12 @@
 <?php
 
-namespace jones\wschat;
+namespace badsantos\wschat;
 
 use yii\web\AssetBundle;
 
 /**
  * Class ChatLibAsset
- * @package jones\wschat
+ * @package badsantos\wschat
  */
 class ChatLibAsset extends AssetBundle
 {

@@ -1,18 +1,18 @@
 <?php
-namespace jones\wschat\components;
+namespace badsantos\wschat\components;
 
 use Yii;
-use jones\wschat\collections\History;
+use badsantos\wschat\collections\History;
 use yii\mongodb\Exception;
 use yii\mongodb\Query;
 
 /**
  * Class ChatManager
- * @package \jones\wschat\components
+ * @package \badsantos\wschat\components
  */
 class ChatManager
 {
-    /** @var \jones\wschat\components\User[] */
+    /** @var \badsantos\wschat\components\User[] */
     private $users = [];
     /** @var string a namespace of class to get user instance */
     public $userClassName = null;
@@ -61,7 +61,7 @@ class ChatManager
      *
      * @access public
      * @param $rid
-     * @return \jones\wschat\components\ChatRoom|null
+     * @return \badsantos\wschat\components\ChatRoom|null
      */
     public function getUserChat($rid)
     {
@@ -76,7 +76,7 @@ class ChatManager
      * @access public
      * @param $chatId
      * @param $rid
-     * @return \jones\wschat\components\ChatRoom|null
+     * @return \badsantos\wschat\components\ChatRoom|null
      */
     public function findChat($chatId, $rid)
     {
@@ -138,8 +138,8 @@ class ChatManager
      * Store chat message
      *
      * @access public
-     * @param \jones\wschat\components\User $user
-     * @param \jones\wschat\components\ChatRoom $chat
+     * @param \badsantos\wschat\components\User $user
+     * @param \badsantos\wschat\components\ChatRoom $chat
      * @param string $message
      */
     public function storeMessage(User $user, ChatRoom $chat, $message)
